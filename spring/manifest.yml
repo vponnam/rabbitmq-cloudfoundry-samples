@@ -1,4 +1,5 @@
 ---
+buildpack: java_buildpack_offline
 applications:
 - name: rabbitmq-spring
   memory: 512M
