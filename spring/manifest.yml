@@ -2,7 +2,7 @@
 buildpack: java_buildpack_offline
 applications:
 - name: rabbitmq-spring
-  memory: 512M
+  memory: 1G
   instances: 1
   host: rabbitmq-spring-${random-word}
   path: target/rabbitmq-spring-1.0-SNAPSHOT.war
