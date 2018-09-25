@@ -1,4 +1,9 @@
-target/
+target/classes
+generated-sources/
+maven-archiver/
+maven-status/
+rabbitmq-spring-1.0-SNAPSHOT/
+*.class
 
 lib-cov
 *.seed
